@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap');
+:root {
+    --pink: #ff8da1;
+    --myfont: "Geist Mono", serif;
+}
+
+
+* {
+    font-family: var(--myfont);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20vw;
+    background-color: var(--pink);
+    color: #fff;
+}

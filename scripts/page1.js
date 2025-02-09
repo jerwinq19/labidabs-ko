@@ -1,0 +1,26 @@
+const dateCont = document.getElementById("date")
+
+
+function countdown(targetDate) {
+    const currentDate = new Date();
+    const diff = currentDate - targetDate;
+
+
+
+    const days = Math.floor(diff / (1000 * 60 * 60 * 24)); // Calculate days
+    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)); // Calculate hours
+    const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60)); // Calculate minutes
+    const seconds = Math.floor((diff % (1000 * 60)) / 1000); // Calculate seconds
+
+    console.log(`${days} days, ${hours} hours, ${minutes} minutes, ${seconds} seconds`);
+
+    dateCont.innerHTML = `${days} days : ${hours} hours : ${minutes} minutes : ${seconds} seconds`
+}
+
+
+const targetDate = new Date('2024-10-11T00:00:00');
+
+
+setInterval(() => countdown(targetDate), 1000); 
+
+
