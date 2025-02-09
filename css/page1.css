@@ -13,7 +13,37 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin: 20vw;
+    flex-direction: column;
+    margin: 10vw;
     background-color: var(--pink);
+    gap: 20px;
     color: #fff;
+}
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.container img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+}
+
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border: 2px solid;
+    padding: 1.5rem;
+    border-radius: 20px;
+    background-color: #FF617D;
+    color: #fff;
+}
+
+#date {
+    font-size: 1.5rem;
+    background-color: var(--pink);
+    padding: 2rem;
+    border-radius: 10px;
 }

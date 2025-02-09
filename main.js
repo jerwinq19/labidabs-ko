@@ -72,5 +72,5 @@ no.addEventListener('click', () => {
 })
 
 next.addEventListener("click", () => {
-    open('test.html')
+    open('./html/page-1.html')
 })

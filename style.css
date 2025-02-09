@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap');
+:root {
+    --pink: #ff8da1;
+    --myfont: "Geist Mono", serif;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: var(--myfont);
+    background-color: var(--pink);
+}
+
+.nextBtn {
+    display: none;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.button-cont button, .nextBtn{
+    width:auto;
+    height: auto;
+    padding: 10px 15px;
+    font-family: var(--myfont);
+    text-align: center;
+    font-weight: 800;
+    border: none;
+    color: var(--pink);
+}
+
+.msg {
+    width: 80%;
+    max-width: 800px;
+    padding: 2rem;
+    text-align: justify;
+    word-break: normal;
+}
+
+
+
