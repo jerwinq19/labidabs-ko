@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap');
 :root {
     --pink: #ff8da1;
+    --dark-pink: #FF617D;
     --myfont: "Geist Mono", serif;
 }
 
@@ -46,4 +47,16 @@ body {
     background-color: var(--pink);
     padding: 2rem;
     border-radius: 10px;
+}
+
+.btn-cont button {
+    padding: 10px 15px;
+    background-color: #FF617D;
+    color: white;
+    border: none;
+}
+
+.btn-cont button:hover {
+    background-color: white;
+    color: #ff8da1;
 }
