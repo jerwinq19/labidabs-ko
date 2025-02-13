@@ -13,6 +13,52 @@
     color: white;
 }
 
-.hidden {
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    padding: 2rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #FF617D;
+}
+
+.card h2 {
+    background-color: #FF617D;
+}
+
+.myAudio {
     display: none;
+}
+
+
+@media screen and (max-width: 500px) {
+    body {
+        text-align: center;
+    }
+    .card img {
+        max-width: 100%;
+    }
+
+    .my-cont {
+        padding: 1rem;
+        
+    }
+    
+    .card {
+        width: auto;
+    }
+
 }

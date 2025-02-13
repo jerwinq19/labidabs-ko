@@ -9,7 +9,7 @@ let size = parseInt(computedStyle.width)
 
 let char = 0
 let myTxt = "Mahal, sa bawat araw na dumadaan, mas lalo kitang minamahal. Hindi lang dahil sa mga matatamis mong ngiti o sa kung paano mo ako pinapasaya, kundi dahil sa kung sino ka talaga—ang taong nagpaparamdam sa akin ng tunay na kahulugan ng pagmamahal. Kahit anong pagsubok ang dumating, hindi kita bibitawan. Pangako, ikaw lang at wala nang iba. Ikaw ang pahinga ko, ang saya ko, at ang dahilan kung bakit gusto kong maging mas mabuting tao araw-araw. Mahal na mahal kita, higit pa sa kaya kong ipaliwanag."
-let txtSpeed = 40
+let txtSpeed = 25
 
 function type(callback) {
     if (char < myTxt.length) {
