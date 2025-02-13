@@ -58,6 +58,7 @@ button:active {
     border: 2px solid;
     padding: 1rem;
     transition: all 0.5s ease;
+    
 }
 
 .card:hover {
@@ -76,8 +77,16 @@ button:active {
 }
 
 .myAudio {
-    display: none;
+    width: 100%;
+    max-width: 90%;
+
 }
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel {
+    background-color: #FF617D;
+     color: white;
+    }
 
 
 @media screen and (max-width: 500px) {

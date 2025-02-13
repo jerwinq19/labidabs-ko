@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap');
+:root {
+    --pink: #ff8da1;
+    --dark-pink: #FF617D;
+    --myfont: "Geist Mono", serif;
+}
+
+* {
+    background-color: #FF617D;
+    color: white;
+    font-family: var(--myfont);
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.enve-cont {
+    position: relative;
+    cursor: pointer;
+}
+
+
+.text-enve {
+    position: absolute;
+    background-color: white;
+    color: #FF617D;
+    font-weight: bold;
+    width: 100%;
+    padding: 3rem;
+    top: -20px;
+    left: -40px;
+    display: none;
+}
+
+#typewriter {
+    background-color: transparent;
+    color: #FF617D;
+}
