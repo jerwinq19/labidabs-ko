@@ -19,3 +19,7 @@ $('.box').click(function() {
         console.log("No song found for this ID.");
     }
 })
+
+$('#last-btn').click(() => {
+    open('../html/page-3.html')
+})
